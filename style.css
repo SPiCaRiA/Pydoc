@@ -1,0 +1,275 @@
+/*
+* @Author: rundis
+* @Date:   2015-11-22 16:25:07
+* @Last Modified by:   rundis
+* @Last Modified time: 2015-11-26 17:58:25
+*/
+.sidebar {
+	width: 20%;
+	height: 100%;
+	float: left;
+	border-right: 1px black solid;
+
+	position: fixed;
+	left: 0;
+	top: 0;
+
+	overflow: scroll;
+}
+.main_frame {
+	border: none;
+	margin-left: 21%;
+	width: 89%;
+	height: 1000px;
+}
+body {
+    background-color: #ffffff;
+    color: #353833;
+    font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
+ul.blockList li.blockList {
+	border-top: 1px black solid;
+	padding-top: 5px;
+}
+div.classDoc {
+	margin-top: 3px;
+}
+section.classInFile {
+	margin-bottom: 30px;
+}
+
+/*jdon-defined*/
+
+span.tableTag {
+	white-space: nowrap;
+	padding-top: 5px;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-bottom: 7px;
+	display: inline-block;
+	float: left;
+	background-color: #F8981D;
+	border: none;
+	height: 16px;
+	font-weight: bold;
+}
+.title {
+	color: #2c4557;
+	margin: 10px 0;
+}
+.altColor {
+	background-color:#FFFFFF;
+}
+.rowColor {
+  background-color:#EEEEEF;
+}
+th {
+    background: #dee3e9;
+    text-align: left;
+    padding: 8px 3px 3px 7px;
+}
+.bar {
+	background-color:#4D7A97;
+	color:#FFFFFF;
+	padding:.8em .5em .4em .8em;
+	height:auto;/*height:1.8em;*/
+	font-size:11px;
+	margin:0;
+}
+.indexContainer {
+	margin:10px;
+	position:relative;
+	font-size:12px;
+}
+.indexContainer ul li {
+	list-style: none;
+	padding-top: 2px;
+}
+.indexContainer ul {
+	margin: 0;
+	padding: 0;
+}
+li {
+	display: list-item;
+	text-align: -webkit-match-parent;
+}
+a:link {
+	text-decoration: none;
+	color: #4A6782;
+}
+td.a {
+	font-weight: bold;
+}
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+div.block {
+    font-size: 14px;
+    font-family: 'DejaVu Serif', Georgia, "Times New Roman", Times, serif;
+}
+.subTitle {
+    margin: 5px 20px 0 20px;
+    padding: 5px 0 0 0;
+}
+.header {
+	clear: both;
+    margin: 0 20px;
+    padding: 5px 0 0 0;
+}
+.contentContainer {
+    clear: both;
+    padding: 10px 20px;
+    position: relative;
+}
+ul.inheritance {
+    margin: 0;
+    padding: 0;
+}
+ul.inheritance li {
+    display: inline;
+    list-style: none;
+}
+ul.blockList, ul.blockListLast {
+    margin: 10px 0 10px 0;
+    padding: 0;
+    list-style: none;
+}
+.description {
+    font-size:12px;
+    font-weight:bold;
+	color:#4E4E4E;
+}
+ul.blockList ul.blockList ul.blockList li.blockList h3 {
+	background-color:#dee3e9;
+    border:1px solid #d0d9e0;
+    padding:7px 5px;
+    list-style: none;
+}
+.deprecatedLabel, .descfrmTypeLabel, .memberNameLabel, .memberNameLink, .overrideSpecifyLabel, .packageHierarchyLabel, .paramLabel, .returnLabel, .seeLabel, .simpleTagLabel, .throwsLabel, .typeNameLabel, .typeNameLink {
+    font-weight: bold;
+}
+dl {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+dt {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 10px 0 0 0;
+    color: #4E4E4E;
+}
+dd {
+    margin: 5px 0 10px 0px;
+    font-size: 14px;
+    font-family: 'DejaVu Sans Mono',monospace;
+}
+ul.blockList ul.blockList li.blockList h3 {
+    padding: 0;
+    margin: 15px 0;
+}
+h3 {
+    font-size: 16px;
+    font-style: italic;
+}
+section.summary ul.blockList li.blockList {
+    padding: 0px 20px 5px 10px;
+    border: 1px solid #ededed;
+    background-color: #f8f8f8;
+}
+.overviewSummary, .memberSummary, .typeSummary, .useSummary, .constantsSummary, .deprecatedSummary {
+    width: 100%;
+    border-left: 1px solid #EEE;
+    border-right: 1px solid #EEE;
+    border-bottom: 1px solid #EEE;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+    width: 100%;
+}
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+th {
+    font-weight: bold;
+}
+th.colOne, th.colFirst, th.colLast, .useSummary th, .constantsSummary th, td.colOne, td.colFirst, td.colLast, .useSummary td, .constantsSummary td {
+    vertical-align: top;
+    padding-right: 0px;
+    padding-top: 8px;
+    padding-bottom: 3px;
+}
+.overviewSummary td, .memberSummary td, .typeSummary td, .useSummary td, .constantsSummary td, .deprecatedSummary td {
+    text-align: left;
+    padding: 0px 0px 12px 10px;
+}
+td.colFirst, th.colFirst {
+    white-space: nowrap;
+    font-size: 13px;
+}
+.overviewSummary td.colFirst, .overviewSummary th.colFirst, .useSummary td.colFirst, .useSummary th.colFirst, .overviewSummary td.colOne, .overviewSummary th.colOne, .memberSummary td.colFirst, .memberSummary th.colFirst, .memberSummary td.colOne, .memberSummary th.colOne, .typeSummary td.colFirst {
+    width: 25%;
+    vertical-align: top;
+}
+th.colFirst, th.colLast, th.colOne, .constantsSummary th {
+    background: #dee3e9;
+    text-align: left;
+    padding: 8px 3px 3px 7px;
+}
+div.details ul.blockList ul.blockList ul.blockList li.blockList h4, div.details ul.blockList ul.blockList ul.blockListLast li.blockList h4 {
+    background-color:#dee3e9;
+    border:1px solid #d0d9e0;
+    margin:0 0 6px -8px;
+    padding:7px 5px;
+}
+code, tt {
+    font-family: 'DejaVu Sans Mono', monospace;
+    font-size: 14px;
+    padding-top: 4px;
+    margin-top: 8px;
+    line-height: 1.4em;
+}
+pre {
+    font-family: 'DejaVu Sans Mono', monospace;
+    font-size: 14px;
+}
+h4 {
+    display: block;
+    -webkit-margin-before: 1.33em;
+    -webkit-margin-after: 1.33em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+h4 {
+    font-size: 13px;
+}
+pre, xmp, plaintext, listing {
+    display: block;
+    font-family: 'DejaVu Sans Mono', monospace;
+    white-space: pre;
+    margin: 1em 0px;
+}
+li.blockList h4 {
+    background-color: #dee3e9;
+    border: 1px solid #d0d9e0;
+    margin: 0 0 6px -8px;
+    padding: 7px 5px;
+}
